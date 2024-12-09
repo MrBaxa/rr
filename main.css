@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 54px 0;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.btn1 {
+  width: 120px;
+  height: 50.41px;
+  border-radius: 5px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #ff7a50;
+  border: none;
+  color: white;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+}
+
+header ul li a:hover {
+  color: #ff6838;
+}
+
+.hero-text span {
+  color: #ff7a50;
+  font-family: Rubik;
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 78.21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 530px;
+  height: 156px;
+}
+
+h1 {
+  font-family: Rubik;
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 78.21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 530px;
+  height: 156px;
+  margin-top: 213px;
+}
+
+.hero-text p {
+  width: 513px;
+  height: 66px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #363853;
+  margin: 23px 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.i123 {
+  margin-top: 52px;
+}
+
+.restaurant {
+  padding: 40px 0;
+}
+
+.yut {
+  display: flex;
+}
+
+.btn2 {
+  border-radius: 30px 30px 0 30px;
+  width: 176px;
+  height: 50.41px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #ff7a50;
+  border: none;
+  color: white;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+  margin-top: 100px;
+}
+
+.restaurant h2 {
+  width: 360px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.restaurant h2 span {
+  color: #ff6838;
+}
+
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 55px;
+}
+
+.btn3 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #ff7a50;
+  border: none;
+  color: white;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+  border-radius: 30px 30px 0 30px;
+  width: 80px;
+  height: 25px;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.card-bottom p {
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.hero-text h2 {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+  padding-top: 100px;
+}
+
+.hero-text h2 span {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+input {
+  border-radius: 80px;
+  width: 838.5px;
+  height: 78px;
+  padding-left: 40px;
+  margin-left: 165px;
+  margin-top: 75px;
+  border: none;
+}
+
+.sec3 h2 {
+  padding-top: 200px;
+}
+
+footer {
+  background: #ff7a50;
+  width: 1170px;
+  height: 312px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
